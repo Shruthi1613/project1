@@ -1,0 +1,22 @@
+class bwcls 
+{
+	int b=10;
+	int h=20;
+	public double tri(int b,int h)
+	{
+		 double area=0.5*b*h;
+		 return area;
+	}
+}
+class bwref
+{
+public static void main(String[] args) 
+	{
+	 bwcls d=new bwcls();
+	 System.out.println(d.b);
+	 System.out.println(d.h);
+	 System.out.println(d.tri());
+	 System.out.println(d.tri(5,10));
+     System.out.println(d.tri(10,20));
+	}
+}
